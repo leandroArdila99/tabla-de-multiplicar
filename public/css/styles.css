@@ -1,0 +1,112 @@
+
+body {
+    text-align: center;
+    font-family: cursive;
+    padding: 0px;
+}
+#header{
+width: 100%;
+height: 180px;
+background-color:black;
+border-bottom: 1px solid rgb(252, 4, 4);
+border-top: solid rgb(252, 4, 4);
+}
+.center{
+    width: 90%;
+    margin:0px auto;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+#logo{
+    width: 30%;
+    font-size: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 10px;
+
+
+
+}
+#logo img{
+    display: block;
+    float: left;
+    height: 122px;
+}
+#brand{
+    display: block;
+    width: 45%;
+    color: #f2f2f2 ;
+    float:left;
+    font-size: 35px;
+}
+
+#menu{
+    width: 80%;
+    float: right;
+    font-size: 25px;  
+    
+}
+#menu ul{
+    line-height: 40px;
+    width: 65%;
+    float:right;
+    
+}
+#menu ul li{
+    display:inline-block;
+    list-style: none;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+#menu a{
+text-decoration: none;
+color:blanchedalmond;
+transition: 300ms all;
+
+}
+#menu a:hover{
+    color: #f7f7f7;
+}
+#content{
+    width: 40%;
+    float:left;
+    min-height: 450px;
+    margin-right: 280px;
+}
+#sidebar{
+    width: 30%;
+    float: left;
+}
+.sidebar-item{
+    background:#f7f7f7 ;
+    padding: 20px;
+    margin-top: 10px;
+}
+#footer{
+    background: black;
+    width: 100%;
+    height: 95px;
+    line-height: 20px;
+}
+#footer p{
+    color: #f2f2f2;
+    height: 30px;
+font-size: 20px;
+}
+#formularios{
+    
+    color: #b40606;
+    width: 40%;
+    float:left;
+    min-height: 450px;
+    margin-right: 280px;
+   
+}
